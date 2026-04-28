@@ -45,13 +45,6 @@ src/membercrud
 └── SignUpRequest.java   # 회원가입 요청 DTO
 ```
 
-## 실행 방법
-
-```bash
-javac -d out src/membercrud/*.java
-java -cp out membercrud.Main
-```
-
 ## 구현 포인트
 - `Repository`에서 `HashMap`을 사용해 회원 데이터를 관리했습니다.
 - `Ui`, `UserService`, `Repository`로 역할을 나누어 입력 처리, 비즈니스 로직, 데이터 저장 책임을 분리했습니다.
